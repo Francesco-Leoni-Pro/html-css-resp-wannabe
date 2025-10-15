@@ -12,7 +12,6 @@
         align-items: flex-start;
         gap: 20px;
     }
-}
    
 .col {
     flex: 0 0 calc(50% - 10px);
@@ -27,6 +26,14 @@
     flex: 0 0 calc(33.333% - 13.33px);
     max-width: calc(33.333% - 13.33px);
 }
+
+.why-us .col-left img {
+        max-height: 60%;
+    }
+
+}
+
+
 
 /* MOBILE */
 @media screen and (max-width: 480px) {
