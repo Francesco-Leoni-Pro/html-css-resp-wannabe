@@ -3,8 +3,22 @@
     /* body {
         background: aqua;
     } */
+     .container {
+        width: 90%;
+     }
+      .row {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 20px;
+    }
+   
+.col {
+    flex: 0 0 calc(50% - 10px);
+  max-width: calc(50% - 10px);
 }
 
+}
 /* MOBILE */
 @media screen and (max-width: 480px) {
     /* body {
